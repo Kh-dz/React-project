@@ -1,0 +1,87 @@
+header{
+    margin-top: 0px;
+    background-color: #ddd;
+}
+header .row{
+    margin: 50px 0px;
+}
+header .row h5{
+    color: var(--btn-color);
+    font-size: 20px;
+    margin: 40px 0px 10px 0px;
+}
+header .row h2{
+    color: var(--main-color);
+    font-size: 50px;
+    margin: 30px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+header button{
+    background-color: var(--orange-color);
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    border: 1px solid var(--orange-color);
+    justify-content: center;
+    margin-top: 20px;
+    transition: .2s ease;
+}
+header button a{
+    color: #ffff;
+    font-size: 17px;
+    transition: .2s ease;
+}
+header button:hover a{
+    color: #ffff;
+}
+header button:hover{
+    opacity: .8;
+}
+header button{
+    background-color: var(--orange-color);
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    border: 1px solid var(--orange-color);
+    justify-content: center;
+    margin-top: 20px;
+}
+header span{
+    font-size: 100px;
+    color:var(--orange-color);
+    display: block;
+    
+
+}   
+header img{
+    max-width: 100%;
+    width: 430px;
+    height: auto;
+    animation: mover 1s infinite alternate;
+    transition: 3s ease all;
+}
+header .header-box{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+@keyframes mover {
+    0%{
+        transform: translateY(-20px)
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+header svg{
+    color:var(--main-color) ;
+    font-size:80px;
+    position: absolute;
+    top:10%;
+    left: 0%;
+   
+    transform: rotate(45deg);
+    animation: mover2s infinite alternate;
+}
